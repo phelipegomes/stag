@@ -8,5 +8,6 @@ body {
 }
 
 h1, h2 {
-    font-weight: 300;
+    color: blue;
+    font-size: 20px;
 }
