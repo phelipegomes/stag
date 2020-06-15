@@ -39,7 +39,7 @@
             grid-template-areas: ". . ." ". . .";
         }  
         .dropbtn {
-            background-color: #3498DB;
+            background-color: #2c2f36;
             color: white;
             padding: 16px;
             font-size: 16px;
@@ -47,7 +47,7 @@
             cursor: pointer;
         }
             .dropbtn:hover, .dropbtn:focus {
-            background-color: #2980B9;
+            background-color: #1f2229;
         }
             .dropdown {
             position: relative;
@@ -56,20 +56,34 @@
             .dropdown-content {
             display: none;
             position: absolute;
-            background-color: #f1f1f1;
+            background-color: #1f2229;
             min-width: 160px;
             overflow: auto;
-            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            box-shadow: 0px 8px 16px 0px #fff(0,0,0,0.2);
             z-index: 1;
         }
             .dropdown-content a {
-            color: black;
+            color: #fff;
             padding: 12px 16px;
             text-decoration: none;
             display: block;
         }
             .dropdown a:hover {background-color: #ddd;}
             .show {display: block;}
+        }
+        .social li a {
+            /* tamanho da imagem */
+            height: 32px;
+            width: 32px;
+
+          /* faz o indent no texto inserido */
+            color: transparent;
+            display: block;
+            text-indent: -9999px;  
+        }
+
+        .social a[href*="facebook.com"] {
+            background-image: url(/imagem/facebook.png);
         }
 
     </style>
@@ -79,16 +93,28 @@
     <div class="grid-container">
         <div class="dropdown">
             <div class="dropdown">
-                <button onclick="myFunction()" class="dropbtn">
-                    <img src="Model/bar2.png" alt=""></div>
-                </button>
+            <button onclick="myFunction()" class="dropbtn">
+                    <img src="Model/bar2.png" alt="">
+            </div>
+            </button>
                 <div id="myDropdown" class="dropdown-content">
                   <a href="http://guessing-game.mybluemix.net/index.html">Home</a>
                   <a href="http://guessing-game.mybluemix.net/index.html">About</a>
                   <a href="http://guessing-game.mybluemix.net/index.html">Contact</a>
                 </div>
-            </div>
-        </div>
+          </div>
+      </div>
+      <div class="col l4 offset-l2 s12">
+          <center>
+          <ul>
+            <a href="https://www.facebook.com/phelipecedaspy?ref=bookmarks"> src="Model/face.png"</a>
+           <a>
+             <img href="https://www.linkedin.com/in/phelipe-gomes-40b611ab/" src="Model/link.png"></a>
+           <a>
+             <img href="http://guessing-game.mybluemix.net/index.html" src="Model/web.png"></a>
+          </ul>
+          </center>
+      </div>
     </div>
     <script>
 function myFunction() {
