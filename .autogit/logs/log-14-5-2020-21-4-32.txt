@@ -1,0 +1,48 @@
+-------------------- Auto-Git Log --------------------
+		Sun Jun 14 2020 21:04:32 GMT-0300 (Horário Padrão de Brasília)
+------------------------------------------------------
+
+Modified files:
+* src/App.jsx
+* src/index.css
+
+
+Created files:
+* .autogit/logs/log-13-5-2020-23-23-33.txt
+* Model/261218916005212.webp
+* Model/Capturar.JPG
+* Model/Untitled-1.psd
+* "Model/background 02.jpg"
+* "Model/background 02s.jpg"
+* Model/cubic.zip
+* Model/especialista-em-trade-de-criptomoedas-diz-que-bitcoin-ultrapassara-os-us-269-000-nos-proximos-anos.png
+* Model/image_processing20200201-29235-1ed3ck3.jpg
+* Model/pngwing.com.png
+* Model/social-media-marketing-information-computer-icons-social-media-black-and-white.jpg
+* css/bootstrap-grid.css
+* css/bootstrap-grid.css.map
+* css/bootstrap-grid.min.css
+* css/bootstrap-grid.min.css.map
+* css/bootstrap-reboot.css
+* css/bootstrap-reboot.css.map
+* css/bootstrap-reboot.min.css
+* css/bootstrap-reboot.min.css.map
+* css/bootstrap.css
+* css/bootstrap.css.map
+* css/bootstrap.min.css
+* css/bootstrap.min.css.map
+* js/bootstrap.bundle.js
+* js/bootstrap.bundle.js.map
+* js/bootstrap.bundle.min.js
+* js/bootstrap.bundle.min.js.map
+* js/bootstrap.js
+* js/bootstrap.js.map
+* js/bootstrap.min.js
+* js/bootstrap.min.js.map
+* src/bootstrap.html
+
+
+Deleted files:
+
+
+Renamed files:
