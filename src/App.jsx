@@ -1,17 +1,16 @@
-import './App.css'
+import './components/App.css'
 import React from "react"
-import './index.css'
-import ReactDOM from 'react-dom'
 
-export default props =>
+import Primeiro from './components/Primeiro'
+import Card from './components/layout/Card'
 
-<div className="App">
-    <Card titulo = "Primeiro Componente">
-        <Primeiro />
-    </Card>
-</div>
-<div>
-    <Card titulo = "exercício x"> Conteudo </Card>   
-</div>
-    document.getElementById('root')
+export default (props) => (
+    <div className= "App" >
+        <Card titulo ="Componente com Parametro"
+            <com
+        <Card titulo = "Prmeiro Componente">
+            <Primeiro />
+        </Card>  
+    </div>
+);
   

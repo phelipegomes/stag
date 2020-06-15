@@ -11,3 +11,10 @@ h1, h2 {
     color: blue;
     font-size: 20px;
 }
+.grid-container {
+    display: grid;
+    grid-template-columns: 0.3fr 2.3fr 0.9fr;
+    grid-template-rows: 0.2fr 1.8fr;
+    gap: 1px 1px;
+    grid-template-areas: ". . ." ". . .";
+}
