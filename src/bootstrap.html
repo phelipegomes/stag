@@ -57,13 +57,18 @@
             background-color: #1f2229;
         }
             .dropdown {
+           border-collapse: collapse;
+           border-width: 1px;
+            border-color: #2c2f36;
+            height: 100%;
+
             width: 68px;
             display: inline-block;
         }
             .dropdown-content {
             display: none;
             position: absolute;
-            background-color: #1f2229;
+            background-color: ##2c2f36;
             min-width: 160px;
             overflow: auto;
             box-shadow: 0px 8px 16px 0px #fff(0,0,0,0.2);
@@ -127,7 +132,14 @@
              max-width:250px;
              max-height:150px;
              width: auto;
-             height: auto;
+             height: auto;             
+            }
+            .padd h2{
+              padding-top: 150px;
+              color: #fff;
+            }
+            .separate h2{
+              padding-top: 75px;
             }
     </style>
     <title>Aplication</title>
@@ -139,6 +151,23 @@
           <button onclick="myFunction()" class="dropbtn">
                   <img src="Model/bar2.png" alt="">
           </div>
+          <ul>
+            <li>
+              <a href="https://www.facebook.com/phelipecedaspy?ref=bookmarks">
+              <img src="Model/face.png">
+              </a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/phelipe-gomes-40b611ab/">
+              <img src="Model/link.png">
+              </a>
+            </li>
+            <li>
+              <a href="http://guessing-game.mybluemix.net/index.html">
+              <img src="Model/port.png">
+              </a>
+            </li>
+          </ul>
           </button>
               <div id="myDropdown" class="dropdown-content">
                 <a href="http://guessing-game.mybluemix.net/index.html">News</a>
@@ -147,24 +176,6 @@
                 <a href="http://guessing-game.mybluemix.net/index.html">Sing in</a>
                 <a href="http://guessing-game.mybluemix.net/index.html">Register</a>
               </div>
-              <ul>
-                <li>
-                  <a href="https://www.facebook.com/phelipecedaspy?ref=bookmarks">
-                  <img src="Model/face.png">
-                  </a>
-                </li>
-                <li>
-                  <a href="https://www.linkedin.com/in/phelipe-gomes-40b611ab/">
-                  <img src="Model/link.png">
-                  </a>
-                </li>
-                <li>
-                  <a href="http://guessing-game.mybluemix.net/index.html">
-                  <img src="Model/port.png">
-                  </a>
-                </li>
-              </ul>
-        </div>
         <div class="container-fluid">
           <div class="row">
             <div class="col-md-4"> 
@@ -209,27 +220,29 @@ Blockchain is the main technological innovation of bitcoin, as it is the proof o
             <div class="col-md-4">
             </div>
             <div class="col-md-4">
+              <div class="padd">
               <h2>
-                Heading
+                Famous trader advises not to trade Bitcoin on Monday
               </h2>
               <p>
-                Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
+                “This is a good day to not negotiate. Instead, accumulate. Bitcoin has not yet stopped doing crazy things. Movements in a short period of time always take Satoshis from the hands of fools. Don't negotiate. ” - @hodlonaut
               </p>
               <p>
-                <a class="btn" href="#">View details »</a>
+                <a class="btn" href="https://www.criptofacil.com/famoso-trader-aconselha-nao-negociar-bitcoin-nesta-segunda-feira/">View details »</a>
               </p>
-              <h3>
-                h3. Lorem ipsum dolor sit amet.
-              </h3>
+              <div class="separate">
+              <h2>
+                Due to the coronavirus, US GDP decreases 4.8% in the first quarter
+              </h2>
               <p>
-                Lorem ipsum dolor sit amet, <strong>consectetur adipiscing elit</strong>. Aliquam eget sapien sapien. Curabitur in metus urna. In hac habitasse platea dictumst. Phasellus eu sem sapien, sed vestibulum velit. Nam purus nibh, lacinia non faucibus et, pharetra in dolor. Sed iaculis posuere diam ut cursus. <em>Morbi commodo sodales nisi id sodales. Proin consectetur, nisi id commodo imperdiet, metus nunc consequat lectus, id bibendum diam velit et dui.</em> Proin massa magna, vulputate nec bibendum nec, posuere nec lacus. <small>Aliquam mi erat, aliquam vel luctus eu, pharetra quis elit. Nulla euismod ultrices massa, et feugiat ipsum consequat eu.</small>
+                The United States' Gross Domestic Product (GDP) shrank at an annualized rate of 4.8% in the first quarter of this year, according to data from the U.S. Department of Commerce released on Wednesday (29). The result is worse than projected by economists consulted by Bloomberg, who estimated a fall of 4%. In the previous quarter, the economy grew 2.1%.
               </p>
-              <h3>
-                h3. Lorem ipsum dolor sit amet.
-              </h3>
-              <p>
-                Lorem ipsum dolor sit amet, <strong>consectetur adipiscing elit</strong>. Aliquam eget sapien sapien. Curabitur in metus urna. In hac habitasse platea dictumst. Phasellus eu sem sapien, sed vestibulum velit. Nam purus nibh, lacinia non faucibus et, pharetra in dolor. Sed iaculis posuere diam ut cursus. <em>Morbi commodo sodales nisi id sodales. Proin consectetur, nisi id commodo imperdiet, metus nunc consequat lectus, id bibendum diam velit et dui.</em> Proin massa magna, vulputate nec bibendum nec, posuere nec lacus. <small>Aliquam mi erat, aliquam vel luctus eu, pharetra quis elit. Nulla euismod ultrices massa, et feugiat ipsum consequat eu.</small>
-              </p>
+              <h2> 
+Bitcoin is an innovative payment network and a new type of money.
+              </h2>
+              <iframe width="355" height="315" src="https://www.youtube.com/embed/Gc2en3nHxA4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            </div>
             </div>
           </div>
         </div>
