@@ -1,0 +1,21 @@
+-------------------- Auto-Git Log --------------------
+		Mon Jun 15 2020 23:55:59 GMT-0300 (Horário Padrão de Brasília)
+------------------------------------------------------
+
+Modified files:
+* src/App.jsx
+* src/bootstrap.html
+* src/components/App.css
+* src/index.js
+
+
+Created files:
+* .autogit/logs/log-15-5-2020-23-25-53.txt
+
+
+Deleted files:
+* "src/background 02s.jpg"
+* src/boot.html
+
+
+Renamed files:
